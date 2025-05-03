@@ -73,25 +73,27 @@ const Nav = () => {
                 <a href="#reviews">Reviews</a>
               </li>
               <li className="app__nav-links_item">
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
               <li className="app__nav-links_item">
-                <a href="/">Get Started</a>
+                <a href="https://paystack.com/buy/membership---penstars-club-knxtya?discount=PENUP5">
+                  Get Started
+                </a>
               </li>
 
               <div className="app__nav-mobile_socials">
-                <a href="https://instagram.com/qashteknologies">
+                <a href="https://www.instagram.com/mindportal_penstarsclub">
                   <p>
                     <FaInstagram />
                   </p>
                 </a>
 
-                <a href="https://wa.link/tcl2g4">
+                <a href="https://wa.link/78fuv7" target="_blank">
                   <p>
                     <FaSquareWhatsapp />
                   </p>
                 </a>
-                <a href="mailto:qashteknologies@gmail.com">
+                <a href="mailto:mindportalpenstarsclub@gmail.com">
                   <p>
                     <FaRegEnvelope />
                   </p>
