@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  --font-base: "Poppins", sans-serif;
+  --font-two: "Nunito", sans-serif;
+  --font-hand:  "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+  --color-black: #000000;
+  --color-purple: rgb(75, 37, 95);
+  --color-white: #eee;
+  --color-grey: rgb(116, 116, 119);
+  --text-gradient: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #c17deb 29.82%, #9c5ce6 51.94%, #ad33cf 90.29%);
+  --bg-gradient: conic-gradient(from 90deg at 50% 50%, rgba(0, 0, 0, 1) 0%, rgb(35, 8, 50) 24%, rgba(0, 0, 0, 1) 52%);
+}
+
+body {
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-white);
+}

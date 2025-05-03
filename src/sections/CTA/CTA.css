@@ -1,0 +1,24 @@
+.cta {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    margin: 4rem;
+    padding: 3rem 2rem;
+    border-radius: 5px;
+    background-color: var(--color-black);
+}
+
+
+@media screen and (max-width: 900px){
+    .cta {
+        flex-direction: column;
+        text-align: center;
+        margin: 2rem;
+        padding: 2rem;
+    }
+}
+

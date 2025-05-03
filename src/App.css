@@ -1,0 +1,149 @@
+.app{
+    width: 100%;
+}
+
+
+.purple {
+    color: var(--color-purple);
+}
+
+.black {
+    color: var(--color-black);
+}
+
+.grey {
+    color: var(--color-grey);
+}
+
+.white {
+    color: var(--color-white);
+}
+
+
+
+
+.subtext {
+    font-size: 0.9rem;
+    font-family: var(--font-hand);
+    font-weight: 400;
+    width: 100%;
+    width: max-content;
+    background: transparent;
+    font-style: italic;
+    color: rgb(169, 87, 246)
+}
+
+.subtext::after, .subtext::before{
+    content: ' * ';
+}
+
+.headtext {
+    font-family: var(--font-base);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 80px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgba(0, 0, 0);
+}
+
+.headtext2 {
+    font-family: var(--font-base);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 1.1rem 0;
+    background: var(--text-gradient);
+    color:  var(--color-black);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0 50px/ 30px;
+}
+
+.headtext3 {
+    font-family: var(--font-base);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 50px;
+    margin: 1rem 0;
+}
+
+.p__nunito{
+    font-family: var(--font-two);
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--color-grey);
+    font-size: 1rem;
+}
+
+.section__padding {
+    padding:  4rem;
+}
+
+.custom__btn {
+    padding: 1rem 4rem;
+    font-family: var(--font-base);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: var(--color-white);  
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(169, 87, 246);
+    transition: .5s ease;
+    cursor: pointer;
+    margin: 2rem 0;
+    background: rgb(169, 87, 246);
+}
+
+.custom__btn:hover {
+    color: var(--color-white);
+    background: var(--color-grey);
+    border: 1px solid var(--color-black);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* 4k screens */
+@media screen and (min-width: 2300px) {
+    .section__padding{
+        padding: 10rem;
+    }
+
+    .headtext{
+        font-size: 8rem;
+        line-height: 200px;
+        margin: 4rem 0;
+    }
+
+    .subtext {
+        font-size: 2rem;
+    }
+
+    .p__nunito {
+        font-size: 2.5rem;
+        line-height: 80px;
+    }
+
+    .custom__btn{
+        font-size: 3rem;
+        padding: 3rem 6rem;
+        margin: 3rem 0;
+    }
+}
+
+
+@media screen and (max-width: 1050px ){
+    .custom__btn{
+        font-size: 0.8rem;
+        line-height: 20px;
+        margin: 1rem 0 0 0;
+        padding: 0.7rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .section__padding {
+        padding: 2rem;
+    }
+
+    
+}
