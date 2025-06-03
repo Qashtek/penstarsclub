@@ -52,6 +52,7 @@
     .app__header{
         flex-direction: column;
         padding: 4rem 0;
+        flex-direction: column-reverse
     }
 
     .app__header-content{
@@ -63,5 +64,10 @@
     .app__header-content .header__h1 {
         font-size: 2rem;
         line-height: 50px;
+    }
+
+    .app__header-img img{
+        height: 60vw;
+        width: auto;
     }
 }

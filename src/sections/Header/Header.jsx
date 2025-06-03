@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="app__header section__padding">
       <div className="app__header-content">
-        <h4 className="subtext white">50% discount for membership access</h4>
+        {/* <h4 className="subtext white">50% discount for membership access</h4> */}
         <h1 className="headtext text__gradient header__h1">
           Discover Leadership by literature.
         </h1>
@@ -20,7 +20,7 @@ const Header = () => {
           className="custom__btn"
           href="https://paystack.com/buy/membership---penstars-club-knxtya?discount=PENUP5"
         >
-          Get Started
+          Learn More
         </a>
       </div>
 
